@@ -10,8 +10,9 @@ import org.hibernate.annotations.SQLDelete;
 import org.hibernate.annotations.Where;
 
 @Entity
-@SQLDelete(sql = "update users set active= true where id=?")
-@Where(clause = "active=false")
+
+@Where(clause = "is_active=true")
+@SQLDelete(sql = "UPDATE users SET is_active=false WHERE id=?")
 public class Users {
 
 	@Id
@@ -20,8 +21,8 @@ public class Users {
 	private String name;
 	private String city;
 	private String email;
-	@Column(name = "ActiveUser")
-	private boolean active = Boolean.FALSE;
+	@Column(name = "is_active")
+	private boolean active = true;
 
 	public Users() {
 		super();

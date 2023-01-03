@@ -6,12 +6,9 @@ public class userService {
 
 	}
 
-	public static void add(Users urs) {
-		urs.setActive(true);
-	}
-
-	public void delete(Users ur) {
-		ur.setActive(false);
-	}
-
+	/*
+	 * public static void add(Users urs) { urs.setActive(true); }
+	 * 
+	 * public void delete(Users ur) { ur.setActive(false); }
+	 */
 }

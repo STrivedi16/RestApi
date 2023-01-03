@@ -25,8 +25,7 @@ public class UserController {
 
 		urUsers.setActive(true);
 		urs.save(urUsers);
-		return new ResponseEntity<>(new SuccessResponce("User Deatil has Stored", "Successfull", urs.save(urUsers)),
-				HttpStatus.OK);
+		return new ResponseEntity<>(new SuccessResponce("stored", "Successfull", urs.save(urUsers)), HttpStatus.OK);
 
 	}
 
@@ -76,11 +75,13 @@ public class UserController {
 
 	}
 
-	@DeleteMapping("userdelete/{uid}")
-	public String delete(@PathVariable("uid") int id) {
+	@DeleteMapping("{id}")
+	public String delete(@PathVariable("id") int id) {
+
+		// System.err.println("jjjjjjjjjjjj");
 
 		urs.deleteById(id);
-		return "Data has delete";
-	}
+		return "Data is delete";
 
+	}
 }
