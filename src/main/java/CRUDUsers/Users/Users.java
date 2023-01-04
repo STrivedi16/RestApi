@@ -6,13 +6,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import org.hibernate.annotations.SQLDelete;
-import org.hibernate.annotations.Where;
-
 @Entity
 
-@Where(clause = "is_active=true")
-@SQLDelete(sql = "UPDATE users SET is_active=false WHERE id=?")
+//@Where(clause = "is_active=true")
+//@SQLDelete(sql = "UPDATE users SET is_active=false WHERE id=?")
+
 public class Users {
 
 	@Id

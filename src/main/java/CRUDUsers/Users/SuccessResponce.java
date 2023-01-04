@@ -1,6 +1,6 @@
 package CRUDUsers.Users;
 
-public class SuccessResponce {
+public class Successresponce {
 
 	private String successmessage;
 
@@ -8,14 +8,14 @@ public class SuccessResponce {
 
 	private Object object;
 
-	public SuccessResponce() {
+	public Successresponce() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	public SuccessResponce(String successmessage, String successKey, Object object) {
+	public Successresponce(String successmessage, String successKey, Object object) {
 		super();
-		successmessage = successmessage;
+		this.successmessage = successmessage;
 		this.successKey = successKey;
 		this.object = object;
 	}
@@ -25,7 +25,7 @@ public class SuccessResponce {
 	}
 
 	public void setSuccessmessage(String successmessage) {
-		successmessage = successmessage;
+		this.successmessage = successmessage;
 	}
 
 	public String getSuccessKey() {

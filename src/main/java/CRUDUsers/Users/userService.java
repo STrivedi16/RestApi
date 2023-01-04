@@ -1,8 +1,8 @@
 package CRUDUsers.Users;
 
-public class userService {
+public class Userservice {
 
-	public void Update(Users user) {
+	public void update(Users user) {
 
 	}
 

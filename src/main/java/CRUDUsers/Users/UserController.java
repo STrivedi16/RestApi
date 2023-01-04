@@ -18,14 +18,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
 	@Autowired // Autowired is uesd to injecting beans at runtime by dependancy injection
-	private userRepository urs;
+	private Userrepository urs;
 
-	@PostMapping("usersadd")
+	@PostMapping("users")
 	public ResponseEntity<?> addusers(@RequestBody Users urUsers) {
 
-		urUsers.setActive(true);
-		urs.save(urUsers);
-		return new ResponseEntity<>(new SuccessResponce("stored", "Successfull", urs.save(urUsers)), HttpStatus.OK);
+		// urUsers.setActive(true);
+		// urs.save(urUsers);
+		return new ResponseEntity<>(new Successresponce("stored", "Successfull", urs.save(urUsers)), HttpStatus.OK);
 
 	}
 
@@ -34,10 +34,10 @@ public class UserController {
 		List<Users> list = (List<Users>) urs.findAll();
 
 		if (list.size() <= 0) {
-			return new ResponseEntity<>(new errorResponce("No data", "Insert data first"), HttpStatus.NOT_FOUND);
+			return new ResponseEntity<>(new Errorresponce("No data", "Insert data first"), HttpStatus.NOT_FOUND);
 
 		}
-		return new ResponseEntity<>(new SuccessResponce("Successfull", "All Data show here", list), HttpStatus.OK);
+		return new ResponseEntity<>(new Successresponce("Successfull", "All Data show here", list), HttpStatus.OK);
 
 	}
 
@@ -49,12 +49,23 @@ public class UserController {
 			if (usid.isEmpty()) {
 				throw new Exception("User id not found");
 			}
-			return new ResponseEntity<>(new SuccessResponce("Data Founded", "Successfull", usid), HttpStatus.OK);
+			return new ResponseEntity<>(new Successresponce("Data Founded", "Successfull", usid), HttpStatus.OK);
 		} catch (Exception e) {
-			return new ResponseEntity<>(new errorResponce("User not Found", "Id Not Found"), HttpStatus.NOT_FOUND);
+			return new ResponseEntity<>(new Errorresponce("User not Found", "Id Not Found"), HttpStatus.NOT_FOUND);
 		}
 
 	}
+
+	/*
+	 * @GetMapping("allusers") public ResponseEntity<?> getallUsers() { List<Users>
+	 * list = urs.getalluser();
+	 * 
+	 * if (list.size() <= 0) { return new ResponseEntity<>(new
+	 * errorResponce("Error in data", "Not Found"), HttpStatus.NOT_FOUND); } return
+	 * new ResponseEntity<>(new SuccessResponce("Show All Users", "Successfull",
+	 * list), HttpStatus.OK); }
+	 */
+
 	// @RequestMapping(values="/user/{id}" , method=RequestMapping.Put
 	// @ResponceBody
 
@@ -63,24 +74,30 @@ public class UserController {
 		try {
 			if (uid.getId() == id) {
 				return new ResponseEntity<>(
-						new SuccessResponce("User data update", "Update successfull", urs.save(uid)), HttpStatus.OK);
+						new Successresponce("User data update", "Update successfull", urs.save(uid)), HttpStatus.OK);
 			} else {
 				throw new Exception("User not Found");
 			}
 
 		} catch (Exception e) {
 
-			return new ResponseEntity<>(new errorResponce("User data not found", "Not found"), HttpStatus.NOT_FOUND);
+			return new ResponseEntity<>(new Errorresponce("User data not found", "Not found"), HttpStatus.NOT_FOUND);
 		}
 
 	}
 
-	@DeleteMapping("{id}")
+	@DeleteMapping("user/{id}")
+
 	public String delete(@PathVariable("id") int id) {
 
-		// System.err.println("jjjjjjjjjjjj");
+		/*
+		 * System.err.println("jjjj");
+		 * 
+		 * urs.deleteById(id); return "Data is delete";
+		 */
 
-		urs.deleteById(id);
+		urs.softdelete(id);
+
 		return "Data is delete";
 
 	}

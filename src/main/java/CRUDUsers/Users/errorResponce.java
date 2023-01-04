@@ -1,34 +1,34 @@
 package CRUDUsers.Users;
 
-public class errorResponce {
+public class Errorresponce {
 
-	private String ErrorMessage;
+	private String errorMessage;
 
-	private String ErrorKey;
+	private String errorKey;
 
 	public String getErrorMessage() {
-		return ErrorMessage;
+		return errorMessage;
 	}
 
 	public void setErrorMessage(String errorMessage) {
-		ErrorMessage = errorMessage;
+		this.errorKey = errorMessage;
 	}
 
 	public String getErrorKey() {
-		return ErrorKey;
+		return errorKey;
 	}
 
 	public void setErrorKey(String errorKey) {
-		ErrorKey = errorKey;
+		this.errorKey = errorKey;
 	}
 
-	public errorResponce(String errorMessage, String errorKey) {
+	public Errorresponce(String errorMessage, String errorKey) {
 		super();
-		ErrorMessage = errorMessage;
-		ErrorKey = errorKey;
+		this.errorMessage = errorMessage;
+		this.errorKey = errorKey;
 	}
 
-	public errorResponce() {
+	public Errorresponce() {
 		super();
 		// TODO Auto-generated constructor stub
 	}

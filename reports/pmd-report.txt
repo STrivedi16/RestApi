@@ -1,0 +1,212 @@
+src/main/java/CRUDUsers/Users/UserController.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/UserController.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/UserController.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/CRUDUsers/Users/UserController.java:18:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/CRUDUsers/Users/UserController.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/UserController.java:18:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/UserController.java:21:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/CRUDUsers/Users/UserController.java:21:	BeanMembersShouldSerialize:	BeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/CRUDUsers/Users/UserController.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/UserController.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/UserController.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:24:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'urUsers' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'urUsers' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:34:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'list' could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:36:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/CRUDUsers/Users/UserController.java:36:	LawOfDemeter:	LawOfDemeter: Potential violation of Law of Demeter (object not created locally)
+src/main/java/CRUDUsers/Users/UserController.java:36:	UseCollectionIsEmpty:	UseCollectionIsEmpty: Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/main/java/CRUDUsers/Users/UserController.java:36:	UseCollectionIsEmpty:	UseCollectionIsEmpty: Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/main/java/CRUDUsers/Users/UserController.java:37:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/CRUDUsers/Users/UserController.java:37:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/CRUDUsers/Users/UserController.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:45:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:45:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:45:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/UserController.java:45:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/UserController.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'usid' could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:46:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'usid' could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:50:	AvoidThrowingRawExceptionTypes:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/CRUDUsers/Users/UserController.java:50:	AvoidThrowingRawExceptionTypes:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/CRUDUsers/Users/UserController.java:52:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/CRUDUsers/Users/UserController.java:52:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/CRUDUsers/Users/UserController.java:53:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/CRUDUsers/Users/UserController.java:53:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/CRUDUsers/Users/UserController.java:59:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/CRUDUsers/Users/UserController.java:59:	CommentSize:	CommentSize: Comment is too large: Too many lines
+src/main/java/CRUDUsers/Users/UserController.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:73:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'uid' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:73:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'uid' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:73:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/UserController.java:73:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/UserController.java:76:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/CRUDUsers/Users/UserController.java:76:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/CRUDUsers/Users/UserController.java:79:	AvoidThrowingRawExceptionTypes:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/CRUDUsers/Users/UserController.java:79:	AvoidThrowingRawExceptionTypes:	AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.
+src/main/java/CRUDUsers/Users/UserController.java:82:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/CRUDUsers/Users/UserController.java:82:	AvoidCatchingGenericException:	AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/CRUDUsers/Users/UserController.java:90:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:90:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UserController.java:90:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:90:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UserController.java:90:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/UserController.java:90:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/Users.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/Users.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/Users.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/Users.java:17:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/Users.java:17:	DataClass:	DataClass: The class 'Users' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=12)
+src/main/java/CRUDUsers/Users/Users.java:17:	DataClass:	DataClass: The class 'Users' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=10, WMC=12)
+src/main/java/CRUDUsers/Users/Users.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:21:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:21:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/Users.java:21:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/Users.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:22:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:23:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:24:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/Users.java:28:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/Users.java:28:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/Users.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/Users.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'active' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'active' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:33:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/Users.java:33:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/Users.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'active' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:46:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'active' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:54:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'id' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:54:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/Users.java:54:	ShortVariable:	ShortVariable: Avoid variables with short names like id
+src/main/java/CRUDUsers/Users/Users.java:62:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:62:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:70:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:70:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:78:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/Users.java:78:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'email' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UsersApplication.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/UsersApplication.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/UsersApplication.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/UsersApplication.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/UsersApplication.java:7:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/CRUDUsers/Users/UsersApplication.java:7:	UseUtilityClass:	UseUtilityClass: All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/CRUDUsers/Users/UsersApplication.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UsersApplication.java:9:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/UsersApplication.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/UsersApplication.java:9:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/errorResponce.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/errorResponce.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/errorResponce.java:3:	ClassNamingConventions:	ClassNamingConventions: The class name 'errorResponce' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/errorResponce.java:3:	ClassNamingConventions:	ClassNamingConventions: The class name 'errorResponce' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/errorResponce.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/errorResponce.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/errorResponce.java:3:	DataClass:	DataClass: The class 'errorResponce' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/main/java/CRUDUsers/Users/errorResponce.java:3:	DataClass:	DataClass: The class 'errorResponce' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=4, WMC=6)
+src/main/java/CRUDUsers/Users/errorResponce.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/errorResponce.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/errorResponce.java:5:	FieldNamingConventions:	FieldNamingConventions: The field name 'ErrorMessage' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/errorResponce.java:5:	FieldNamingConventions:	FieldNamingConventions: The field name 'ErrorMessage' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/errorResponce.java:5:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'ErrorMessage' starts with uppercase character.
+src/main/java/CRUDUsers/Users/errorResponce.java:5:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'ErrorMessage' starts with uppercase character.
+src/main/java/CRUDUsers/Users/errorResponce.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/errorResponce.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/errorResponce.java:7:	FieldNamingConventions:	FieldNamingConventions: The field name 'ErrorKey' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/errorResponce.java:7:	FieldNamingConventions:	FieldNamingConventions: The field name 'ErrorKey' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/errorResponce.java:7:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'ErrorKey' starts with uppercase character.
+src/main/java/CRUDUsers/Users/errorResponce.java:7:	VariableNamingConventions:	VariableNamingConventions: Variables should start with a lowercase character, 'ErrorKey' starts with uppercase character.
+src/main/java/CRUDUsers/Users/errorResponce.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/errorResponce.java:13:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/errorResponce.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'errorKey' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/errorResponce.java:21:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'errorKey' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/errorResponce.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/errorResponce.java:25:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/errorResponce.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'errorKey' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/errorResponce.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'errorKey' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/errorResponce.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/errorResponce.java:25:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'errorMessage' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/errorResponce.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/errorResponce.java:31:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/successResponce.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/successResponce.java:3:	ClassNamingConventions:	ClassNamingConventions: The class name 'successResponce' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/successResponce.java:3:	ClassNamingConventions:	ClassNamingConventions: The class name 'successResponce' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/successResponce.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:3:	DataClass:	DataClass: The class 'successResponce' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/CRUDUsers/Users/successResponce.java:3:	DataClass:	DataClass: The class 'successResponce' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=8)
+src/main/java/CRUDUsers/Users/successResponce.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:7:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:9:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:11:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/successResponce.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'object' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'object' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'successKey' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'successKey' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'successmessage' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:16:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'successmessage' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'successmessage' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'successmessage' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'successKey' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'successKey' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'object' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/successResponce.java:43:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'object' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/userRepository.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/userRepository.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/userRepository.java:7:	ClassNamingConventions:	ClassNamingConventions: The interface name 'userRepository' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/userRepository.java:7:	ClassNamingConventions:	ClassNamingConventions: The interface name 'userRepository' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/userRepository.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/userRepository.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/userService.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/userService.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/main/java/CRUDUsers/Users/userService.java:3:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/CRUDUsers/Users/userService.java:3:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/CRUDUsers/Users/userService.java:3:	ClassNamingConventions:	ClassNamingConventions: The class name 'userService' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/userService.java:3:	ClassNamingConventions:	ClassNamingConventions: The class name 'userService' doesn't match '[A-Z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/userService.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/userService.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/CRUDUsers/Users/userService.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/userService.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/CRUDUsers/Users/userService.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/userService.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'user' is not assigned and could be declared final
+src/main/java/CRUDUsers/Users/userService.java:5:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'Update' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/userService.java:5:	MethodNamingConventions:	MethodNamingConventions: The instance method name 'Update' doesn't match '[a-z][a-zA-Z0-9]*'
+src/main/java/CRUDUsers/Users/userService.java:5:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/main/java/CRUDUsers/Users/userService.java:5:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:1:	PackageCase:	PackageCase: Package name contains upper case characters
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:10:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: To avoid mistakes add a comment at the beginning of the contextLoads method if you want a default access modifier
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/CRUDUsers/Users/UsersApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
