@@ -6,20 +6,23 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Entity
+import org.hibernate.annotations.SQLDelete;
+
+@Entity // --For the table creation
 
 //@Where(clause = "is_active=true")
-//@SQLDelete(sql = "UPDATE users SET is_active=false WHERE id=?")
-
+@SQLDelete(sql = "UPDATE users SET is_active=false WHERE id=?") // -- For override the delete query
+//@FilterDef(name = "deletedproductfilter", parameters = @ParamDef(name = "isDeleted", type = "boolean"))
+//@Filter(name = "deletedproductfilter", condition = "is_active = :isDeleted ")
 public class Users {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Id // To generate primary key on table
+	@GeneratedValue(strategy = GenerationType.AUTO) // to add auto increment
 	private int id;
 	private String name;
 	private String city;
 	private String email;
-	@Column(name = "is_active")
+	@Column(name = "is_active") // To Set the column name as is_active
 	private boolean active = true;
 
 	public Users() {
@@ -36,12 +39,12 @@ public class Users {
 		this.active = active;
 	}
 
-	public boolean isActive() {
-		return active;
-	}
-
 	public void setActive(boolean active) {
 		this.active = active;
+	}
+
+	public boolean isActive() {
+		return active;
 	}
 
 	public int getId() {

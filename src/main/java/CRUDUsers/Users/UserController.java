@@ -2,6 +2,7 @@ package CRUDUsers.Users;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Stream;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -17,7 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-	@Autowired // Autowired is uesd to injecting beans at runtime by dependancy injection
+	@Autowired // Autowired is uesd to injecting beans at runtime by dependancy
+	// injection so if we dont't use @autowired the it does not help in the storing
+	// update and delete
+
 	private Userrepository urs;
 
 	@PostMapping("users")
@@ -42,12 +46,13 @@ public class UserController {
 	}
 
 	@GetMapping("user/{id}")
+
 	public ResponseEntity<?> getuserbyid(@PathVariable("id") int id) {
 		Optional<Users> usid = urs.findById(id);
 
 		try {
 			if (usid.isEmpty()) {
-				throw new Exception("User id not found");
+				throw new NotFoundException("User id not found");
 			}
 			return new ResponseEntity<>(new Successresponce("Data Founded", "Successfull", usid), HttpStatus.OK);
 		} catch (Exception e) {
@@ -76,7 +81,7 @@ public class UserController {
 				return new ResponseEntity<>(
 						new Successresponce("User data update", "Update successfull", urs.save(uid)), HttpStatus.OK);
 			} else {
-				throw new Exception("User not Found");
+				throw new NotFoundException("User not Found");
 			}
 
 		} catch (Exception e) {
@@ -90,15 +95,45 @@ public class UserController {
 
 	public String delete(@PathVariable("id") int id) {
 
-		/*
-		 * System.err.println("jjjj");
-		 * 
-		 * urs.deleteById(id); return "Data is delete";
-		 */
+		// System.err.println("jjjj");
 
-		urs.softdelete(id);
-
+		urs.deleteById(id);
 		return "Data is delete";
 
+		// urs.softdelete(id);
+
 	}
+
+	// @GetMapping("findby/{active}")
+	// public List<Users> findyactive(@PathVariable("active") Boolean active) {
+	// List<Users> list = urs.findByactive(active);
+
+	// return list;
+
+	// }
+
+	@GetMapping("Users")
+	public Stream<Users> findall() {
+		// ArrayList<Users> al = new ArrayList<>();
+		List<Users> list = urs.findAll();
+
+		// Users us = new Users();
+		// if (us.isActive() == true) {
+		// al.add(us);
+		// }
+
+		return list.stream().filter(ac -> ac.isActive() == true);
+
+	}
+
+	@GetMapping("findall")
+	public List<Users> findactive() {
+		Users us = new Users();
+
+		List<Users> list = urs.findByactive(us.isActive() == true);
+
+		return list;
+
+	}
+
 }
