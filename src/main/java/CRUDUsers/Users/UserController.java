@@ -1,5 +1,6 @@
 package CRUDUsers.Users;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
@@ -134,6 +135,41 @@ public class UserController {
 
 		return list;
 
+	}
+
+	// @GetMapping("FindAllnewrecoed")
+//	public List<Users> findallnew() {
+	/*
+	 * Boolean bool = true;
+	 * 
+	 * List<Users> list = urs.findByactive();
+	 * 
+	 * return list; }
+	 */
+
+	@GetMapping("AllUsers")
+	public List<Users> findNewway() {
+
+		return urs.active(true);
+	}
+
+	Users obj = new Users();
+
+	/*
+	 * public List<Users> getdata() { return urs.findByactive(obj.isActive()); }
+	 */
+	@GetMapping("NewFind")
+	public Collection<Users> Findinnew() {
+
+		return urs.findByactive(obj.isActive(), Users.class);
+
+	}
+
+	@GetMapping("New")
+	public List<Users> getdata() {
+		List<Users> list = urs.findByActiveTrue();
+
+		return list;
 	}
 
 }
